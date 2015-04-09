@@ -29,7 +29,22 @@
 
     <div class="wrapper">
       <nav>
-        <ul></ul>
+        <ul>http://www.cnblogs.com/danielWise/archive/2011/09/07/2170042.html
+        byte[] filedata = File.ReadAllBytes("文件.dll");
+Assembly assembly = Assembly.Load(filedata);</ul>
+        <ul>http://www.cnblogs.com/danielWise/archive/2011/09/07/2170042.html</ul>
+        <ul>http://stackoverflow.com/questions/6258160/unloading-the-assembly-loaded-with-assembly-loadfrom
+        AppDomain dom = AppDomain.CreateDomain("some");     
+AssemblyName assemblyName = new AssemblyName();
+assemblyName.CodeBase = pathToAssembly;
+Assembly assembly = dom.Load(assemblyName);
+Type [] types = assembly.GetTypes();
+AppDomain.Unload(dom);</ul>
+        <ul>
+          WCF大数据传输 流模式
+          http://www.cnblogs.com/Lycorisra/p/4052593.html
+          http://www.cnblogs.com/TianFang/archive/2012/12/30/2839618.html
+        </ul>
       </nav>
       <footer>
         <p><small>Hosted on GitHub Pages </small></p>
